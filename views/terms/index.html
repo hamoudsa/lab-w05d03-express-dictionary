@@ -3,10 +3,13 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css?family=Shrikhand" rel="stylesheet">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>All Terms</title>
 </head>
 <body>
-  
+    {{#termList}}
+    <h2><a style="font-family: Shrikhand ; color: darkblue" href="/terms/{{id}}">{{name}}</a></h2>
+    {{/termList}}
 </body>
 </html>
